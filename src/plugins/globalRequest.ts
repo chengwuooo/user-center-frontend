@@ -13,7 +13,6 @@ import {stringify} from "querystring";
 const request = extend({
   credentials: 'include', // 默认请求是否带上cookie
   prefix: process.env.NODE_ENV === 'production' ? 'http://47.109.196.49:3000' : undefined
-  // requestType: 'form',
 });
 
 /**
